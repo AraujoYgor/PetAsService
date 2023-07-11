@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PetAsService.exe" version="1.0.0.0" publicKeyToken="8cbbe595f3d63e62" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PetAsService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PetAsService.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetAsService.exe" size="129472">
+      <assemblyIdentity name="PetAsService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sOYrEEEEY/u2Aab+6tfLrMkL2Rub4vfYwb1zR54RKcQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PetAsService.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=YGOR-PC\YGOR-DEV" issuerKeyHash="8a3a73d45f6fb3b286231fb57641f27902d166a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ph7qZNXRLbt6pWyJ2p0HatBnn+mq3Mq6ZSO0kwNBymA=</DigestValue></Reference></SignedInfo><SignatureValue>Kdxal4q+bL55A7HvqHwke5+0ioI2XRuqtZ0eV6MaRU15u2kFnfEOzH6xfESOoYwsx/81dZDwPkVAq32BLKiXVKA2aK/7eb8S7QGYYj7aKxb21hbxou8E69gq3UHgDPssrPshQfCKnuFBk46UXJivC5Bg9hGR/jQ/S127Wupo68Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vFuxKz03H7AMVu/QP8E7oyUPwtwQ84mCfmOoWBi9rq+lgk1chaGeyKmNFIAhHQ9F9I0ZxQpzmX8aFoPzMOjuxtniwO+WsHJIQ/It5eHH9wccn+mCxTvwPnOT+P6HlVHXnGoNcNUvobvi9jD+hC2JHztWe1BitG02Q2l4wgpFJ0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="60ca410393b42365bacadcaae99f67d06a079dda896ca57abb2dd1d564ea1ea6" Description="" Url=""><as:assemblyIdentity name="PetAsService.exe" version="1.0.0.0" publicKeyToken="8cbbe595f3d63e62" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=YGOR-PC\YGOR-DEV</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W5CItA8OgESDY+wIm/nVDnm0hZEkscdLDAJI69WfLwY=</DigestValue></Reference></SignedInfo><SignatureValue>pH2oB9m0rO3FG7pQvvAgWLEnkD+Vxw/nV9FFTJ4PEX9FOt9k0Hi4lll4wtTy9VuBNMktPEDAhFTVXFrWmQIj/uf3M2gaB5WzN55U2rmBN8n4nrnZp9hOs0BlAYU+2UaThRLNiQYT8m9lM859qNYwtSPByp4tVIaZfYx0uOAmg3U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vFuxKz03H7AMVu/QP8E7oyUPwtwQ84mCfmOoWBi9rq+lgk1chaGeyKmNFIAhHQ9F9I0ZxQpzmX8aFoPzMOjuxtniwO+WsHJIQ/It5eHH9wccn+mCxTvwPnOT+P6HlVHXnGoNcNUvobvi9jD+hC2JHztWe1BitG02Q2l4wgpFJ0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQEYJAegjYq51H6nks4fmvdDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAWQBHAE8AUgAtAFAAQwBcAFkARwBPAFIALQBEAEUAVjAeFw0yMzA3MTAxODU0MDdaFw0yNDA3MTAwMDU0MDdaMCsxKTAnBgNVBAMeIABZAEcATwBSAC0AUABDAFwAWQBHAE8AUgAtAEQARQBWMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8W7ErPTcfsAxW79A/wTujJQ/C3BDziYJ+Y6hYGL2ur6WCTVyFoZ7IqY0UgCEdD0X0jRnFCnOZfxoWg/Mw6O7G2eLA75awckhD8i3l4cf3Bxyf6YLFO/A+c5P4/oeVUdecag1w1S+hu+L2MP6ELYkfO1Z7UGK0bTZDaXjCCkUnQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAH01FWsVw1H0iom0v608MSio2oEeCaYOghNXUQjjxh3tFxsM0eZPP6rYGvCTvpXFY2D78EHvFjEpZWqOAig7GWrA4+ULVJG/t35KOERSenCFcEB9rhnQ/A3BcFjc77mNHJa5bmJODZAUid2WxpCW8PU3XZpBVNMmyyUBpUEaKBJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

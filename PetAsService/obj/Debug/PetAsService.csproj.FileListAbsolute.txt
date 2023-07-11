@@ -1,0 +1,16 @@
+D:\Projetos\PetAsService\PetAsService\bin\Debug\PetAsService.exe.config
+D:\Projetos\PetAsService\PetAsService\bin\Debug\PetAsService.exe
+D:\Projetos\PetAsService\PetAsService\bin\Debug\PetAsService.pdb
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.csproj.AssemblyReference.cache
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.BoasVindas.resources
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.Properties.Resources.resources
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.csproj.GenerateResource.cache
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.csproj.CoreCompileInputs.cache
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.exe
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.pdb
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.FrmBuscarRacas.resources
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.FrmRacasFavoritas.resources
+D:\Projetos\PetAsService\PetAsService\bin\Debug\PetAsService.exe.manifest
+D:\Projetos\PetAsService\PetAsService\bin\Debug\PetAsService.application
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.exe.manifest
+D:\Projetos\PetAsService\PetAsService\obj\Debug\PetAsService.application
